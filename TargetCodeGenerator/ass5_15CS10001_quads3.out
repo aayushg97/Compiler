@@ -1,0 +1,55 @@
+Quads for this program 
+ 
+ 0 :- t0 = 2 
+ 1 :- t1 = 2 
+ 2 :- t2 = 2.100 
+ 3 :- t3 = 3.100 
+ 4 :- t4 = 5.200 
+ 5 :- t5 = 6.400 
+ 6 :- A[0] = t2 
+ 7 :- A[1] = t3 
+ 8 :- A[2] = t4 
+ 9 :- A[3] = t5 
+10 :- t6 = 0 
+11 :- sum = t6 
+12 :- t7 = 0 
+13 :- i = t7 
+14 :- t8 = 2 
+15 :- if i < t8 goto 21 
+16 :- goto 42 
+17 :- t9 = i 
+18 :- t10 = i + 1 
+19 :- i = t10 
+20 :- goto 14 
+21 :- t11 = 0 
+22 :- j = t11 
+23 :- t12 = 2 
+24 :- if j < t12 goto 30 
+25 :- goto 17 
+26 :- t13 = j 
+27 :- t14 = j + 1 
+28 :- j = t14 
+29 :- goto 23 
+30 :- t15 = 0 
+31 :- t17 = 16 * i 
+32 :- t16 = t15 + t17 
+33 :- t19 = 8 * j 
+34 :- t18 = t16 + t19 
+35 :- t20 = A[t18] 
+36 :- t21 = (double) sum 
+37 :- t22 = t21 + t20 
+38 :- t23 = (double) sum 
+39 :- t23 = t22 
+40 :- goto 26 
+41 :- goto 17 
+42 :- t24 = "Sum of all elements is :- " 
+43 :- param t24 
+44 :- t25 = call printStr,1 
+45 :- s = t25 
+46 :- param sum 
+47 :- t26 = call printInt,1 
+48 :- s = t26 
+49 :- t27 = "\n" 
+50 :- param t27 
+51 :- t28 = call printStr,1 
+52 :- s = t28 

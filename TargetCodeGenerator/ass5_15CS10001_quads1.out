@@ -1,0 +1,36 @@
+Quads for this program 
+ 
+ 0 :- t0 = "Enter an integer \n" 
+ 1 :- param t0 
+ 2 :- t1 = call printStr,1 
+ 3 :- s = t1 
+ 4 :- t2 = &a 
+ 5 :- param t2 
+ 6 :- t3 = call readInt,1 
+ 7 :- s = t3 
+ 8 :- t4 = "You entered :- " 
+ 9 :- param t4 
+10 :- t5 = call printStr,1 
+11 :- s = t5 
+12 :- param a 
+13 :- t6 = call printInt,1 
+14 :- s = t6 
+15 :- t7 = "\nEnter a double\n" 
+16 :- param t7 
+17 :- t8 = call printStr,1 
+18 :- s = t8 
+19 :- t9 = &b 
+20 :- param t9 
+21 :- t10 = call readFlt,1 
+22 :- s = t10 
+23 :- t11 = "You entered :- " 
+24 :- param t11 
+25 :- t12 = call printStr,1 
+26 :- s = t12 
+27 :- param b 
+28 :- t13 = call printFlt,1 
+29 :- s = t13 
+30 :- t14 = "\n" 
+31 :- param t14 
+32 :- t15 = call printStr,1 
+33 :- s = t15 

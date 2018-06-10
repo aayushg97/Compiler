@@ -1,0 +1,57 @@
+syntax error at /*s = printStr( 
+Quads for this program 
+ 
+ 0 :- t0 = "Enter the first Integer\n" 
+ 1 :- param t0 
+ 2 :- t1 = call printStr,1 
+ 3 :- s = t1 
+ 4 :- t2 = &a 
+ 5 :- param t2 
+ 6 :- t3 = call readInt,1 
+ 7 :- s = t3 
+ 8 :- t4 = "Enter the second Integer\n" 
+ 9 :- param t4 
+10 :- t5 = call printStr,1 
+11 :- s = t5 
+12 :- t6 = &b 
+13 :- param t6 
+14 :- t7 = call readInt,1 
+15 :- s = t7 
+16 :- t8 = "a + b = " 
+17 :- param t8 
+18 :- t9 = call printStr,1 
+19 :- s = t9 
+20 :- t10 = a + b 
+21 :- e = t10 
+22 :- param e 
+23 :- t11 = call printInt,1 
+24 :- s = t11 
+25 :- t12 = "\n" 
+26 :- param t12 
+27 :- t13 = call printStr,1 
+28 :- s = t13 
+29 :- t14 = "a - b = " 
+30 :- param t14 
+31 :- t15 = call printStr,1 
+32 :- s = t15 
+33 :- t16 = a - b 
+34 :- e = t16 
+35 :- param e 
+36 :- t17 = call printInt,1 
+37 :- s = t17 
+38 :- t18 = "\n" 
+39 :- param t18 
+40 :- t19 = call printStr,1 
+41 :- s = t19 
+42 :- t20 = "a * b = " 
+43 :- param t20 
+44 :- t21 = call printStr,1 
+45 :- s = t21 
+46 :- t22 = a * b 
+47 :- param t22 
+48 :- t23 = call printInt,1 
+49 :- s = t23 
+50 :- t24 = "\n" 
+51 :- param t24 
+52 :- t25 = call printStr,1 
+53 :- s = t25 

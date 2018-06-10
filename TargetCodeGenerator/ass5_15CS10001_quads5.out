@@ -1,0 +1,5 @@
+Quads for this program 
+ 
+ 0 :- t0 = "Hello World \n" 
+ 1 :- param t0 
+ 2 :- t1 = call printStr,1 
