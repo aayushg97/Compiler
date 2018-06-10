@@ -1,0 +1,160 @@
+Quads for this program 
+ 
+ 0 :- t0 = 4 
+ 1 :- t1 = - t0 
+ 2 :- b = t1 
+ 3 :- t2 = a + b 
+ 4 :- c = t2 
+ 5 :- t3 = 4.500 
+ 6 :- e = t3 
+ 7 :- t4 = 8.100 
+ 8 :- t5 = - t4 
+ 9 :- deci = t5 
+10 :- t6 = 5 
+11 :- b = t6 
+12 :- t7 = (double) a 
+13 :- t8 = t7 - e 
+14 :- d = t8 
+15 :- t9 = (double) b 
+16 :- t10 = t9 * e 
+17 :- d = t10 
+18 :- t11 = a / b 
+19 :- c = t11 
+20 :- t12 = a % b 
+21 :- c = t12 
+22 :- t13 = a 
+23 :- t14 = a + 1 
+24 :- a = t14 
+25 :- b = t13 
+26 :- t15 = b 
+27 :- t16 = b - 1 
+28 :- b = t16 
+29 :- c = t15 
+30 :- t18 = a - 1 
+31 :- a = t18 
+32 :- t17 = t18 
+33 :- b = t17 
+34 :- t20 = c + 1 
+35 :- c = t20 
+36 :- t19 = t20 
+37 :- b = t19 
+38 :- t21 = &a 
+39 :- q = t21 
+40 :- t22 = *q 
+41 :- b = t22 
+42 :- *p = c 
+43 :- if a == b goto 45 
+44 :- goto 49 
+45 :- t23 = 4.500 
+46 :- t24 = e / t23 
+47 :- d = t24 
+48 :- goto 50 
+49 :- a = b 
+50 :- t25 = *p 
+51 :- if t25 == b goto 53 
+52 :- goto 57 
+53 :- t26 = a 
+54 :- t27 = a + 1 
+55 :- a = t27 
+56 :- goto 50 
+57 :- t28 = 2 
+58 :- t29 = 2 
+59 :- t30 = 1.200 
+60 :- t31 = 2.000 
+61 :- t32 = - t31 
+62 :- t33 = 3.500 
+63 :- t34 = + t33 
+64 :- t35 = 4.300 
+65 :- t36 = 4 
+66 :- a = t36 
+67 :- t37 = 1 
+68 :- if a >= t37 goto 74 
+69 :- goto 92 
+70 :- t39 = a - 1 
+71 :- a = t39 
+72 :- t38 = t39 
+73 :- goto 67 
+74 :- if b != c goto 76 
+75 :- goto 79 
+76 :- t40 = c - b 
+77 :- b = t40 
+78 :- goto 70 
+79 :- if b < c goto 83 
+80 :- goto 81 
+81 :- if a >= c goto 83 
+82 :- goto 70 
+83 :- if a != b goto 85 
+84 :- goto 70 
+85 :- t41 = a * c 
+86 :- t42 = 9 
+87 :- t43 = t41 / t42 
+88 :- t44 = b + t43 
+89 :- b = t44 
+90 :- goto 79 
+91 :- goto 70 
+
+
+
+
+Symbol Tables for the program 
+
+-------------------------------
+Symbol Table :- GLOBAL 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+main 	function 	--- 	 0 	 0 		ptr-to-ST(main) 
+
+-------------------------------
+Symbol Table :- main 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+a 	int     	--- 	 4 	 0 		 NULL 
+b 	int     	-4 	 4 	 4 		 NULL 
+t0 	int     	4 	 4 	 8 		 NULL 
+t1 	int     	-4 	 4 	 12 		 NULL 
+c 	int     	--- 	 4 	 16 		 NULL 
+t2 	int     	--- 	 4 	 20 		 NULL 
+d 	double  	--- 	 8 	 24 		 NULL 
+e 	double  	4.500 	 8 	 32 		 NULL 
+t3 	double  	4.500 	 8 	 40 		 NULL 
+deci 	double  	-8.100 	 8 	 48 		 NULL 
+t4 	double  	8.100 	 8 	 56 		 NULL 
+t5 	double  	-8.100 	 8 	 64 		 NULL 
+t6 	int     	5 	 4 	 72 		 NULL 
+t7 	double  	--- 	 8 	 76 		 NULL 
+t8 	double  	--- 	 8 	 84 		 NULL 
+t9 	double  	--- 	 8 	 92 		 NULL 
+t10 	double  	--- 	 8 	 100 		 NULL 
+t11 	int     	--- 	 4 	 108 		 NULL 
+t12 	int     	--- 	 4 	 112 		 NULL 
+t13 	int     	--- 	 4 	 116 		 NULL 
+t14 	int     	--- 	 4 	 120 		 NULL 
+t15 	int     	--- 	 4 	 124 		 NULL 
+t16 	int     	--- 	 4 	 128 		 NULL 
+t17 	int     	--- 	 4 	 132 		 NULL 
+t18 	int     	--- 	 4 	 136 		 NULL 
+t19 	int     	--- 	 4 	 140 		 NULL 
+t20 	int     	--- 	 4 	 144 		 NULL 
+q 	ptr(int) 	--- 	 4 	 148 		 NULL 
+t21 	ptr(int) 	--- 	 4 	 152 		 NULL 
+p 	ptr(int) 	--- 	 4 	 156 		 NULL 
+t22 	int     	--- 	 4 	 160 		 NULL 
+t23 	double  	4.500 	 8 	 160 		 NULL 
+t24 	double  	--- 	 8 	 168 		 NULL 
+t25 	int     	--- 	 4 	 176 		 NULL 
+t26 	int     	--- 	 4 	 176 		 NULL 
+t27 	int     	--- 	 4 	 180 		 NULL 
+arr 	Matrix(2, 2, double)	{1.200,-2.000;+3.500,4.300} 	 32+8 	 184 		 NULL 
+t30 	double  	1.200 	 8 	 224 		 NULL 
+t31 	double  	2.000 	 8 	 232 		 NULL 
+t32 	double  	-2.000 	 8 	 240 		 NULL 
+t33 	double  	3.500 	 8 	 248 		 NULL 
+t34 	double  	+3.500 	 8 	 256 		 NULL 
+t35 	double  	4.300 	 8 	 264 		 NULL 
+t36 	int     	4 	 4 	 272 		 NULL 
+t37 	int     	1 	 4 	 276 		 NULL 
+t38 	int     	--- 	 4 	 280 		 NULL 
+t39 	int     	--- 	 4 	 284 		 NULL 
+t40 	int     	--- 	 4 	 288 		 NULL 
+t41 	int     	--- 	 4 	 292 		 NULL 
+t42 	int     	9 	 4 	 296 		 NULL 
+t43 	int     	--- 	 4 	 300 		 NULL 
+t44 	int     	--- 	 4 	 304 		 NULL 

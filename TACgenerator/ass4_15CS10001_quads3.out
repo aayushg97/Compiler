@@ -1,0 +1,223 @@
+Quads for this program 
+ 
+ 0 :- t0 = x * y 
+ 1 :- x = t0 
+ 2 :- t1 = 2 
+ 3 :- t2 = x << t1 
+ 4 :- y = t2 
+ 5 :- t3 = x - y 
+ 6 :- t4 = (double) t3 
+ 7 :- z = t4 
+ 8 :- t5 = 2 
+ 9 :- t6 = 3 
+10 :- t7 = 1.100 
+11 :- t8 = 2.200 
+12 :- t9 = 3.300 
+13 :- t10 = 2.400 
+14 :- t11 = 4.800 
+15 :- t12 = 6.800 
+16 :- t13 = 3 
+17 :- t14 = 2 
+18 :- t15 = 5.200 
+19 :- a = t15 
+20 :- t16 = 4 
+21 :- c = t16 
+22 :- t17 = f 
+23 :- s = t17 
+24 :- t18 = 0 
+25 :- t19 = 0 
+26 :- t20 = A .' 
+27 :- B = t20 
+28 :- t21 = 0 
+29 :- t22 = 1 
+30 :- t24 = 24 * t22 
+31 :- t23 = t21 + t24 
+32 :- t25 = 2 
+33 :- t27 = 8 * t25 
+34 :- t26 = t23 + t27 
+35 :- t28 = A[t26] 
+36 :- b = t28 
+37 :- t29 = 0 
+38 :- t30 = 1 
+39 :- t32 = 24 * t30 
+40 :- t31 = t29 + t32 
+41 :- t33 = 1 
+42 :- t35 = 8 * t33 
+43 :- t34 = t31 + t35 
+44 :- A[t34] = a 
+45 :- if a != b goto 47 
+46 :- goto 50 
+47 :- t36 = 5 
+48 :- t37 = c * t36 
+49 :- c = t37 
+50 :- t38 = call elapse,0 
+51 :- if a <= b goto 53 
+52 :- goto 55 
+53 :- t39 = s 
+54 :- goto 56 
+55 :- t39 = g 
+56 :- t40 = (int) t39 
+57 :- c = t40 
+58 :- param a 
+59 :- param b 
+60 :- param c 
+61 :- t41 = call diff,3 
+62 :- g = t41 
+63 :- t42 = a1 - a2 
+64 :- t43 = 0 
+65 :- t44 = (double) t43 
+66 :- if t42 == t44 goto 68 
+67 :- goto 71 
+68 :- t45 = c 
+69 :- return t45 
+70 :- goto 73 
+71 :- t46 = d 
+72 :- return t46 
+73 :- t47 = 2 
+74 :- t48 = 4 
+75 :- t49 = 1.300 
+76 :- t50 = 2.300 
+77 :- t51 = 4.400 
+78 :- t52 = 3.100 
+79 :- t53 = 1.500 
+80 :- t54 = 3.600 
+81 :- t55 = 4.200 
+82 :- t56 = 6.900 
+83 :- t57 = 2 
+84 :- t58 = 4 
+85 :- t59 = 0 
+86 :- B = A 
+87 :- t60 = 2 
+88 :- t61 = 4 
+89 :- t62 = 2 
+90 :- t63 = 2 
+91 :- t64 = 4 
+92 :- t65 = 2 
+93 :- t66 = 0 
+94 :- t67 = A .' 
+95 :- E = t67 
+96 :- t68 = 0 
+97 :- t69 = 0 
+98 :- t70 = 0 
+99 :- t71 = A + B 
+100 :- C = t71 
+101 :- t72 = 0 
+102 :- t73 = 0 
+103 :- t74 = 0 
+104 :- t75 = A - B 
+105 :- C = t75 
+106 :- t76 = 0 
+107 :- t77 = 0 
+108 :- t78 = 0 
+109 :- t79 = A * E 
+110 :- D = t79 
+
+
+
+
+Symbol Tables for the program 
+
+-------------------------------
+Symbol Table :- GLOBAL 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+elapse 	function 	--- 	 0 	 0 		ptr-to-ST(elapse) 
+diff 	function 	--- 	 0 	 0 		ptr-to-ST(diff) 
+main 	function 	--- 	 0 	 0 		ptr-to-ST(main) 
+
+-------------------------------
+Symbol Table :- elapse 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+x 	int     	--- 	 4 	 0 		 NULL 
+y 	int     	--- 	 4 	 4 		 NULL 
+z 	double  	--- 	 8 	 8 		 NULL 
+t0 	int     	--- 	 4 	 16 		 NULL 
+t1 	int     	2 	 4 	 20 		 NULL 
+t2 	int     	--- 	 4 	 24 		 NULL 
+t3 	int     	--- 	 4 	 28 		 NULL 
+t4 	double  	--- 	 8 	 32 		 NULL 
+
+-------------------------------
+Symbol Table :- diff 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+a1 	double  	--- 	 8 	 0 		 NULL 
+a2 	double  	--- 	 8 	 8 		 NULL 
+a3 	int     	--- 	 4 	 16 		 NULL 
+t42 	double  	--- 	 8 	 20 		 NULL 
+t43 	int     	0 	 4 	 28 		 NULL 
+t44 	double  	--- 	 8 	 32 		 NULL 
+t45 	char    	c 	 1 	 40 		 NULL 
+t46 	char    	d 	 1 	 41 		 NULL 
+A 	Matrix(2, 4, double)	{1.300,2.300,4.400,3.100;1.500,3.600,4.200,6.900} 	 64+8 	 42 		 NULL 
+t49 	double  	1.300 	 8 	 114 		 NULL 
+t50 	double  	2.300 	 8 	 122 		 NULL 
+t51 	double  	4.400 	 8 	 130 		 NULL 
+t52 	double  	3.100 	 8 	 138 		 NULL 
+t53 	double  	1.500 	 8 	 146 		 NULL 
+t54 	double  	3.600 	 8 	 154 		 NULL 
+t55 	double  	4.200 	 8 	 162 		 NULL 
+t56 	double  	6.900 	 8 	 170 		 NULL 
+B 	Matrix(2, 4, double)	{1.300,2.300,4.400,3.100;1.500,3.600,4.200,6.900} 	 64+8 	 178 		 NULL 
+t59 	int     	0 	 4 	 250 		 NULL 
+C 	Matrix(2, 4, double)	--- 	 64+8 	 254 		 NULL 
+D 	Matrix(2, 2, double)	--- 	 32+8 	 326 		 NULL 
+E 	Matrix(4, 2, double)	--- 	 64+8 	 366 		 NULL 
+t66 	int     	0 	 4 	 438 		 NULL 
+t67 	Matrix(4, 2, double)	--- 	 64+8 	 442 		 NULL 
+t68 	int     	0 	 4 	 506 		 NULL 
+t69 	int     	0 	 4 	 510 		 NULL 
+t70 	int     	0 	 4 	 514 		 NULL 
+t71 	Matrix(2, 4, double)	--- 	 64+8 	 518 		 NULL 
+t72 	int     	0 	 4 	 582 		 NULL 
+t73 	int     	0 	 4 	 586 		 NULL 
+t74 	int     	0 	 4 	 590 		 NULL 
+t75 	Matrix(2, 4, double)	--- 	 64+8 	 594 		 NULL 
+t76 	int     	0 	 4 	 658 		 NULL 
+t77 	int     	0 	 4 	 662 		 NULL 
+t78 	int     	0 	 4 	 666 		 NULL 
+t79 	Matrix(2, 2, double)	--- 	 32+8 	 670 		 NULL 
+
+-------------------------------
+Symbol Table :- main 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+A 	Matrix(2, 3, double)	{1.100,2.200,3.300;2.400,4.800,6.800} 	 48+8 	 0 		 NULL 
+t7 	double  	1.100 	 8 	 56 		 NULL 
+t8 	double  	2.200 	 8 	 64 		 NULL 
+t9 	double  	3.300 	 8 	 72 		 NULL 
+t10 	double  	2.400 	 8 	 80 		 NULL 
+t11 	double  	4.800 	 8 	 88 		 NULL 
+t12 	double  	6.800 	 8 	 96 		 NULL 
+B 	Matrix(3, 2, double)	--- 	 48+8 	 104 		 NULL 
+a 	double  	5.200 	 8 	 160 		 NULL 
+t15 	double  	5.200 	 8 	 168 		 NULL 
+b 	double  	--- 	 8 	 176 		 NULL 
+c 	int     	4 	 4 	 184 		 NULL 
+t16 	int     	4 	 4 	 188 		 NULL 
+d 	int     	--- 	 4 	 192 		 NULL 
+s 	char    	f 	 1 	 196 		 NULL 
+t17 	char    	f 	 1 	 197 		 NULL 
+g 	char    	--- 	 1 	 198 		 NULL 
+t18 	int     	0 	 4 	 199 		 NULL 
+t19 	int     	0 	 4 	 203 		 NULL 
+t20 	Matrix(3, 2, double)	--- 	 48+8 	 207 		 NULL 
+t21 	int     	0 	 4 	 255 		 NULL 
+t22 	int     	1 	 4 	 259 		 NULL 
+t23 	int     	--- 	 4 	 263 		 NULL 
+t24 	int     	--- 	 4 	 267 		 NULL 
+t25 	int     	2 	 4 	 271 		 NULL 
+t26 	int     	--- 	 4 	 275 		 NULL 
+t27 	int     	--- 	 4 	 279 		 NULL 
+t28 	double  	--- 	 8 	 283 		 NULL 
+t29 	int     	0 	 4 	 291 		 NULL 
+t30 	int     	1 	 4 	 295 		 NULL 
+t31 	int     	--- 	 4 	 299 		 NULL 
+t32 	int     	--- 	 4 	 303 		 NULL 
+t33 	int     	1 	 4 	 307 		 NULL 
+t34 	int     	--- 	 4 	 311 		 NULL 
+t35 	int     	--- 	 4 	 315 		 NULL 
+t36 	int     	5 	 4 	 319 		 NULL 
+t37 	int     	--- 	 4 	 323 		 NULL 
+t38 	void    	--- 	 -1 	 327 		 NULL 
+t39 	char    	--- 	 1 	 327 		 NULL 
+t40 	int     	--- 	 4 	 328 		 NULL 
+point 	ptr(pointer) 	--- 	 4 	 332 		 NULL 
+t41 	char    	--- 	 1 	 336 		 NULL 

@@ -1,0 +1,128 @@
+Quads for this program 
+ 
+ 0 :- t0 = 2.300 
+ 1 :- a = t0 
+ 2 :- param b 
+ 3 :- param a 
+ 4 :- t1 = call operate,2 
+ 5 :- dec = t1 
+ 6 :- t2 = 0 
+ 7 :- i = t2 
+ 8 :- t3 = 10 
+ 9 :- if i < t3 goto 15 
+10 :- goto 21 
+11 :- t4 = 5 
+12 :- t5 = i + t4 
+13 :- i = t5 
+14 :- goto 8 
+15 :- t6 = 5.200 
+16 :- t7 = (double) b 
+17 :- t8 = t6 * t7 
+18 :- t9 = t8 + dec 
+19 :- a = t9 
+20 :- goto 11 
+21 :- t10 = 2 
+22 :- t11 = (double) t10 
+23 :- t12 = t11 * a 
+24 :- a = t12 
+25 :- t13 = 83.200 
+26 :- if a < t13 goto 21 
+27 :- goto 28 
+28 :- t14 = 5 
+29 :- t15 = i >> t14 
+30 :- b = t15 
+31 :- if b >= i goto 33 
+32 :- goto 35 
+33 :- t16 = b / i 
+34 :- b = t16 
+35 :- t17 = (double) b 
+36 :- if t17 < a goto 38 
+37 :- goto 40 
+38 :- if i < c goto 43 
+39 :- goto 40 
+40 :- t18 = (double) i 
+41 :- if t18 >= a goto 43 
+42 :- goto 47 
+43 :- t19 = 2 
+44 :- t20 = (double) t19 
+45 :- t21 = a * t20 
+46 :- a = t21 
+47 :- t22 = b & i 
+48 :- c = t22 
+49 :- t23 = b | i 
+50 :- c = t23 
+51 :- t24 = b ^ i 
+52 :- c = t24 
+53 :- t25 = 2.300 
+54 :- d = t25 
+55 :- t26 = (double) x 
+56 :- t27 = t26 * d 
+57 :- y = t27 
+58 :- t29 = x - 1 
+59 :- x = t29 
+60 :- t28 = t29 
+61 :- c = t28 
+62 :- t30 = (double) c 
+63 :- t31 = y + t30 
+64 :- d = t31 
+65 :- return d 
+
+
+
+
+Symbol Tables for the program 
+
+-------------------------------
+Symbol Table :- GLOBAL 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+a 	double  	2.300 	 8 	 0 		 NULL 
+t0 	double  	2.300 	 8 	 8 		 NULL 
+b 	int     	--- 	 4 	 16 		 NULL 
+operate 	function 	--- 	 0 	 20 		ptr-to-ST(operate) 
+main 	function 	--- 	 0 	 20 		ptr-to-ST(main) 
+
+-------------------------------
+Symbol Table :- operate 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+x 	int     	--- 	 4 	 0 		 NULL 
+y 	double  	--- 	 8 	 4 		 NULL 
+c 	int     	--- 	 4 	 12 		 NULL 
+d 	double  	2.300 	 8 	 16 		 NULL 
+t25 	double  	2.300 	 8 	 24 		 NULL 
+t26 	double  	--- 	 8 	 32 		 NULL 
+t27 	double  	--- 	 8 	 40 		 NULL 
+t28 	int     	--- 	 4 	 48 		 NULL 
+t29 	int     	--- 	 4 	 52 		 NULL 
+t30 	double  	--- 	 8 	 56 		 NULL 
+t31 	double  	--- 	 8 	 64 		 NULL 
+
+-------------------------------
+Symbol Table :- main 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+i 	int     	--- 	 4 	 0 		 NULL 
+c 	int     	--- 	 4 	 4 		 NULL 
+dec 	double  	--- 	 8 	 8 		 NULL 
+t1 	double  	--- 	 8 	 16 		 NULL 
+t2 	int     	0 	 4 	 24 		 NULL 
+t3 	int     	10 	 4 	 28 		 NULL 
+t4 	int     	5 	 4 	 32 		 NULL 
+t5 	int     	--- 	 4 	 36 		 NULL 
+t6 	double  	5.200 	 8 	 40 		 NULL 
+t7 	double  	--- 	 8 	 48 		 NULL 
+t8 	double  	--- 	 8 	 56 		 NULL 
+t9 	double  	--- 	 8 	 64 		 NULL 
+t10 	int     	2 	 4 	 72 		 NULL 
+t11 	double  	--- 	 8 	 76 		 NULL 
+t12 	double  	--- 	 8 	 84 		 NULL 
+t13 	double  	83.200 	 8 	 92 		 NULL 
+t14 	int     	5 	 4 	 100 		 NULL 
+t15 	int     	--- 	 4 	 104 		 NULL 
+t16 	int     	--- 	 4 	 108 		 NULL 
+t17 	double  	--- 	 8 	 112 		 NULL 
+t18 	double  	--- 	 8 	 120 		 NULL 
+t19 	int     	2 	 4 	 128 		 NULL 
+t20 	double  	--- 	 8 	 132 		 NULL 
+t21 	double  	--- 	 8 	 140 		 NULL 
+t22 	int     	--- 	 4 	 148 		 NULL 
+t23 	int     	--- 	 4 	 152 		 NULL 
+t24 	int     	--- 	 4 	 156 		 NULL 

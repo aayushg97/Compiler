@@ -1,0 +1,325 @@
+Quads for this program 
+ 
+ 0 :- t0 = 2.300 
+ 1 :- d = t0 
+ 2 :- t1 = 4 
+ 3 :- x = t1 
+ 4 :- t2 = 2 
+ 5 :- t3 = 2 
+ 6 :- t4 = 1.200 
+ 7 :- t5 = 2.000 
+ 8 :- t6 = 3.500 
+ 9 :- t7 = 4.300 
+10 :- t8 = 1 
+11 :- t9 = i - t8 
+12 :- i = t9 
+13 :- t10 = 0 
+14 :- t12 = 16 * i 
+15 :- t11 = t10 + t12 
+16 :- t14 = 8 * i 
+17 :- t13 = t11 + t14 
+18 :- t15 = mat[t13] 
+19 :- if t15 < d goto 10 
+20 :- goto 21 
+21 :- t16 = 1 
+22 :- if n <= t16 goto 24 
+23 :- goto 25 
+24 :- return n 
+25 :- t17 = 2 
+26 :- t18 = 2 
+27 :- t19 = 0 
+28 :- t20 = 0 
+29 :- t22 = 16 * t20 
+30 :- t21 = t19 + t22 
+31 :- t23 = 0 
+32 :- t25 = 8 * t23 
+33 :- t24 = t21 + t25 
+34 :- t26 = 0 
+35 :- t27 = 0 
+36 :- t29 = 16 * t27 
+37 :- t28 = t26 + t29 
+38 :- t30 = 1 
+39 :- t32 = 8 * t30 
+40 :- t31 = t28 + t32 
+41 :- t33 = a[t31] 
+42 :- t34 = 1 
+43 :- t35 = (double) t34 
+44 :- t36 = t33 + t35 
+45 :- a[t24] = t36 
+46 :- t37 = 0 
+47 :- t38 = 1 
+48 :- t40 = 16 * t38 
+49 :- t39 = t37 + t40 
+50 :- t41 = 0 
+51 :- t43 = 8 * t41 
+52 :- t42 = t39 + t43 
+53 :- t44 = 0 
+54 :- t45 = 1 
+55 :- t47 = 16 * t45 
+56 :- t46 = t44 + t47 
+57 :- t48 = 1 
+58 :- t50 = 8 * t48 
+59 :- t49 = t46 + t50 
+60 :- t51 = a[t49] 
+61 :- t52 = 5 
+62 :- t53 = (double) t52 
+63 :- t54 = t51 * t53 
+64 :- a[t42] = t54 
+65 :- t55 = 0 
+66 :- t56 = 0 
+67 :- t58 = 16 * t56 
+68 :- t57 = t55 + t58 
+69 :- t59 = 0 
+70 :- t61 = 8 * t59 
+71 :- t60 = t57 + t61 
+72 :- t62 = a[t60] 
+73 :- t63 = 0 
+74 :- t64 = 0 
+75 :- t66 = 16 * t64 
+76 :- t65 = t63 + t66 
+77 :- t67 = 1 
+78 :- t69 = 8 * t67 
+79 :- t68 = t65 + t69 
+80 :- t70 = a[t68] 
+81 :- t71 = t62 + t70 
+82 :- return t71 
+83 :- t72 = 3 
+84 :- t73 = 5 
+85 :- t74 = 0 
+86 :- t75 = 2 
+87 :- t77 = 40 * t75 
+88 :- t76 = t74 + t77 
+89 :- t78 = 1 
+90 :- t80 = 8 * t78 
+91 :- t79 = t76 + t80 
+92 :- t81 = ap[t79] 
+93 :- a = t81 
+94 :- t82 = 0 
+95 :- t83 = 1 
+96 :- t85 = 40 * t83 
+97 :- t84 = t82 + t85 
+98 :- t86 = 1 
+99 :- t88 = 8 * t86 
+100 :- t87 = t84 + t88 
+101 :- t89 = ap[t87] 
+102 :- t90 = a * t89 
+103 :- t91 = 0 
+104 :- t92 = 2 
+105 :- t94 = 40 * t92 
+106 :- t93 = t91 + t94 
+107 :- t95 = 4 
+108 :- t97 = 8 * t95 
+109 :- t96 = t93 + t97 
+110 :- t98 = ap[t96] 
+111 :- t99 = 3 
+112 :- t100 = (double) t99 
+113 :- t101 = t98 + t100 
+114 :- t102 = a + t101 
+115 :- t103 = t90 / t102 
+116 :- v = t103 
+117 :- t104 = &a 
+118 :- p = t104 
+119 :- t105 = 0 
+120 :- t106 = 1 
+121 :- t108 = 40 * t106 
+122 :- t107 = t105 + t108 
+123 :- t109 = 4 
+124 :- t111 = 8 * t109 
+125 :- t110 = t107 + t111 
+126 :- t112 = ap[t110] 
+127 :- t113 = &t112 
+128 :- q = t113 
+129 :- t114 = 0 
+130 :- t115 = 2 
+131 :- t117 = 40 * t115 
+132 :- t116 = t114 + t117 
+133 :- t118 = 3 
+134 :- t120 = 8 * t118 
+135 :- t119 = t116 + t120 
+136 :- t121 = *q 
+137 :- t122 = *p 
+138 :- t123 = t121 * t122 
+139 :- ap[t119] = t123 
+140 :- t124 = &p 
+141 :- return t124 
+142 :- param a 
+143 :- param b 
+144 :- t125 = call func,2 
+145 :- param a 
+146 :- t126 = call getFib,1 
+147 :- b = t126 
+148 :- param b 
+149 :- param c 
+150 :- t127 = call ptrarr,2 
+151 :- p = t127 
+
+
+
+
+Symbol Tables for the program 
+
+-------------------------------
+Symbol Table :- GLOBAL 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+d 	double  	2.300 	 8 	 0 		 NULL 
+t0 	double  	2.300 	 8 	 8 		 NULL 
+i 	int     	--- 	 4 	 16 		 NULL 
+x 	int     	4 	 4 	 20 		 NULL 
+t1 	int     	4 	 4 	 24 		 NULL 
+p 	ptr(int) 	--- 	 4 	 28 		 NULL 
+bc 	int     	--- 	 4 	 32 		 NULL 
+func 	function 	--- 	 0 	 36 		ptr-to-ST(func) 
+g 	char    	--- 	 1 	 36 		 NULL 
+getFib 	function 	--- 	 0 	 37 		ptr-to-ST(getFib) 
+ptrarr 	function 	--- 	 0 	 37 		ptr-to-ST(ptrarr) 
+main 	function 	--- 	 0 	 37 		ptr-to-ST(main) 
+
+-------------------------------
+Symbol Table :- func 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+i 	int     	--- 	 4 	 0 		 NULL 
+d 	double  	--- 	 8 	 4 		 NULL 
+mat 	Matrix(2, 2, double)	{1.200,2.000;3.500,4.300} 	 32+8 	 12 		 NULL 
+t4 	double  	1.200 	 8 	 52 		 NULL 
+t5 	double  	2.000 	 8 	 60 		 NULL 
+t6 	double  	3.500 	 8 	 68 		 NULL 
+t7 	double  	4.300 	 8 	 76 		 NULL 
+t8 	int     	1 	 4 	 84 		 NULL 
+t9 	int     	--- 	 4 	 88 		 NULL 
+t10 	int     	0 	 4 	 92 		 NULL 
+t11 	int     	--- 	 4 	 96 		 NULL 
+t12 	int     	--- 	 4 	 100 		 NULL 
+t13 	int     	--- 	 4 	 104 		 NULL 
+t14 	int     	--- 	 4 	 108 		 NULL 
+t15 	double  	--- 	 8 	 112 		 NULL 
+
+-------------------------------
+Symbol Table :- getFib 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+n 	int     	--- 	 4 	 0 		 NULL 
+t16 	int     	1 	 4 	 4 		 NULL 
+a 	Matrix(2, 2, double)	--- 	 32+8 	 8 		 NULL 
+t19 	int     	0 	 4 	 48 		 NULL 
+t20 	int     	0 	 4 	 52 		 NULL 
+t21 	int     	--- 	 4 	 56 		 NULL 
+t22 	int     	--- 	 4 	 60 		 NULL 
+t23 	int     	0 	 4 	 64 		 NULL 
+t24 	int     	--- 	 4 	 68 		 NULL 
+t25 	int     	--- 	 4 	 72 		 NULL 
+t26 	int     	0 	 4 	 76 		 NULL 
+t27 	int     	0 	 4 	 80 		 NULL 
+t28 	int     	--- 	 4 	 84 		 NULL 
+t29 	int     	--- 	 4 	 88 		 NULL 
+t30 	int     	1 	 4 	 92 		 NULL 
+t31 	int     	--- 	 4 	 96 		 NULL 
+t32 	int     	--- 	 4 	 100 		 NULL 
+t33 	double  	--- 	 8 	 104 		 NULL 
+t34 	int     	1 	 4 	 112 		 NULL 
+t35 	double  	--- 	 8 	 116 		 NULL 
+t36 	double  	--- 	 8 	 124 		 NULL 
+t37 	int     	0 	 4 	 132 		 NULL 
+t38 	int     	1 	 4 	 136 		 NULL 
+t39 	int     	--- 	 4 	 140 		 NULL 
+t40 	int     	--- 	 4 	 144 		 NULL 
+t41 	int     	0 	 4 	 148 		 NULL 
+t42 	int     	--- 	 4 	 152 		 NULL 
+t43 	int     	--- 	 4 	 156 		 NULL 
+t44 	int     	0 	 4 	 160 		 NULL 
+t45 	int     	1 	 4 	 164 		 NULL 
+t46 	int     	--- 	 4 	 168 		 NULL 
+t47 	int     	--- 	 4 	 172 		 NULL 
+t48 	int     	1 	 4 	 176 		 NULL 
+t49 	int     	--- 	 4 	 180 		 NULL 
+t50 	int     	--- 	 4 	 184 		 NULL 
+t51 	double  	--- 	 8 	 188 		 NULL 
+t52 	int     	5 	 4 	 196 		 NULL 
+t53 	double  	--- 	 8 	 200 		 NULL 
+t54 	double  	--- 	 8 	 208 		 NULL 
+t55 	int     	0 	 4 	 216 		 NULL 
+t56 	int     	0 	 4 	 220 		 NULL 
+t57 	int     	--- 	 4 	 224 		 NULL 
+t58 	int     	--- 	 4 	 228 		 NULL 
+t59 	int     	0 	 4 	 232 		 NULL 
+t60 	int     	--- 	 4 	 236 		 NULL 
+t61 	int     	--- 	 4 	 240 		 NULL 
+t62 	double  	--- 	 8 	 244 		 NULL 
+t63 	int     	0 	 4 	 252 		 NULL 
+t64 	int     	0 	 4 	 256 		 NULL 
+t65 	int     	--- 	 4 	 260 		 NULL 
+t66 	int     	--- 	 4 	 264 		 NULL 
+t67 	int     	1 	 4 	 268 		 NULL 
+t68 	int     	--- 	 4 	 272 		 NULL 
+t69 	int     	--- 	 4 	 276 		 NULL 
+t70 	double  	--- 	 8 	 280 		 NULL 
+t71 	double  	--- 	 8 	 288 		 NULL 
+
+-------------------------------
+Symbol Table :- ptrarr 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+a 	double  	--- 	 8 	 0 		 NULL 
+v 	double  	--- 	 8 	 8 		 NULL 
+ap 	Matrix(3, 5, double)	--- 	 120+8 	 16 		 NULL 
+t74 	int     	0 	 4 	 144 		 NULL 
+t75 	int     	2 	 4 	 148 		 NULL 
+t76 	int     	--- 	 4 	 152 		 NULL 
+t77 	int     	--- 	 4 	 156 		 NULL 
+t78 	int     	1 	 4 	 160 		 NULL 
+t79 	int     	--- 	 4 	 164 		 NULL 
+t80 	int     	--- 	 4 	 168 		 NULL 
+t81 	double  	--- 	 8 	 172 		 NULL 
+t82 	int     	0 	 4 	 180 		 NULL 
+t83 	int     	1 	 4 	 184 		 NULL 
+t84 	int     	--- 	 4 	 188 		 NULL 
+t85 	int     	--- 	 4 	 192 		 NULL 
+t86 	int     	1 	 4 	 196 		 NULL 
+t87 	int     	--- 	 4 	 200 		 NULL 
+t88 	int     	--- 	 4 	 204 		 NULL 
+t89 	double  	--- 	 8 	 208 		 NULL 
+t90 	double  	--- 	 8 	 216 		 NULL 
+t91 	int     	0 	 4 	 224 		 NULL 
+t92 	int     	2 	 4 	 228 		 NULL 
+t93 	int     	--- 	 4 	 232 		 NULL 
+t94 	int     	--- 	 4 	 236 		 NULL 
+t95 	int     	4 	 4 	 240 		 NULL 
+t96 	int     	--- 	 4 	 244 		 NULL 
+t97 	int     	--- 	 4 	 248 		 NULL 
+t98 	double  	--- 	 8 	 252 		 NULL 
+t99 	int     	3 	 4 	 260 		 NULL 
+t100 	double  	--- 	 8 	 264 		 NULL 
+t101 	double  	--- 	 8 	 272 		 NULL 
+t102 	double  	--- 	 8 	 280 		 NULL 
+t103 	double  	--- 	 8 	 288 		 NULL 
+p 	ptr(double) 	--- 	 4 	 296 		 NULL 
+q 	ptr(double) 	--- 	 4 	 300 		 NULL 
+t104 	ptr(double) 	--- 	 4 	 304 		 NULL 
+t105 	int     	0 	 4 	 308 		 NULL 
+t106 	int     	1 	 4 	 312 		 NULL 
+t107 	int     	--- 	 4 	 316 		 NULL 
+t108 	int     	--- 	 4 	 320 		 NULL 
+t109 	int     	4 	 4 	 324 		 NULL 
+t110 	int     	--- 	 4 	 328 		 NULL 
+t111 	int     	--- 	 4 	 332 		 NULL 
+t112 	double  	--- 	 8 	 336 		 NULL 
+t113 	ptr(double) 	--- 	 4 	 344 		 NULL 
+t114 	int     	0 	 4 	 348 		 NULL 
+t115 	int     	2 	 4 	 352 		 NULL 
+t116 	int     	--- 	 4 	 356 		 NULL 
+t117 	int     	--- 	 4 	 360 		 NULL 
+t118 	int     	3 	 4 	 364 		 NULL 
+t119 	int     	--- 	 4 	 368 		 NULL 
+t120 	int     	--- 	 4 	 372 		 NULL 
+t121 	double  	--- 	 8 	 376 		 NULL 
+t122 	double  	--- 	 8 	 376 		 NULL 
+t123 	double  	--- 	 8 	 376 		 NULL 
+t124 	ptr(pointer) 	--- 	 4 	 384 		 NULL 
+
+-------------------------------
+Symbol Table :- main 
+Name 	 Type 	 Init_Value 	 Size 	 Offset 	 Nested Table 	 
+a 	int     	--- 	 4 	 0 		 NULL 
+p 	ptr(pointer) 	--- 	 4 	 4 		 NULL 
+b 	double  	--- 	 8 	 8 		 NULL 
+c 	double  	--- 	 8 	 16 		 NULL 
+t125 	void    	--- 	 -1 	 24 		 NULL 
+t126 	double  	--- 	 8 	 24 		 NULL 
+t127 	ptr(pointer) 	--- 	 4 	 32 		 NULL 
